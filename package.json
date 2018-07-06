@@ -1,6 +1,6 @@
 {
   "name": "react-filter-select",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "react multi and filter select component",
   "main": "lib/index.js",
   "scripts": {
@@ -15,10 +15,15 @@
     "select"
   ],
   "author": {
-    "name": "@liubaitong",
+    "name": "@Lusteng",
     "email": "1257782926@qq.com",
-    "url": "https://github.com/liubaitong"
+    "url": "https://github.com/lusteng"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lusteng/react-filter-select"
+  },
+  "homepage": "https://github.com/lusteng/react-filter-select",
   "license": "MIT",
   "dependencies": {
     "react": "^16.4.1",
