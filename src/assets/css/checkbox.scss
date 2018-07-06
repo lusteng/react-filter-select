@@ -1,0 +1,58 @@
+@import './theme';
+
+$checkboxSize: 12px; 
+
+.c-label{ 
+    font: 13px Arial,sans-serif;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 1.5em;
+    input[type="checkbox"]{
+        display: none;
+    }
+    .c-copy-checkbox{
+        cursor: pointer;
+        position: relative;    
+        display: inline-block;
+        width: $checkboxSize;
+        height: $checkboxSize;
+        border: 1px solid $borderColor;
+        border-radius: 2px;
+        transition: ease .5s;  
+        animation: .36s ease-in-out; 
+        animation-fill-mode: both;
+        margin-right: 5px;
+        vertical-align: middle;
+        top:-.16em;
+        &:hover{
+            border-color: $themeColor;
+            box-shadow: 0 0 3px 0 $themeColor; 
+        }
+        &:after{
+            position: absolute; 
+            transform: rotate(45deg) scale(1);
+            left: $checkboxSize / 4;
+            top: 0;
+            display: table;
+            width: $checkboxSize / 3;
+            height: $checkboxSize / 1.5;
+            border: 2px solid #fff;
+            border-top: 0;
+            border-left: 0;
+            content: " ";
+            transition: all .15s cubic-bezier(.5,-.45,.8,.5);
+            visibility: hidden; 
+        }
+    }
+    input[type="checkbox"]:checked + .c-copy-checkbox{
+        background: $themeColor;
+        border: 1px solid $themeColor;
+        &:after{
+            visibility: visible;
+        } 
+    }
+    .c-text{
+        display: inline-block;
+        cursor: pointer;
+    }
+}
