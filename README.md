@@ -8,13 +8,10 @@ npm install react-filter-select
 
 ## Demo
 
-```bash
-npm run dev 
-```
-
-<font size="4">or</font>
-
-    [look up example/index.html]
+![image](https://github.com/lusteng/react-filter-select/blob/master/images/react-mul-select.gif)
+ 
+## Demo link 
+[http://www.liubaitong.com/reactmulselect/index.html](http://www.liubaitong.com/reactmulselect/index.html)
 
 
 ## Usage
