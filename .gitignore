@@ -1,1 +1,9 @@
-node_modules
+# dependencies
+/node_modules
+
+# testing
+/lib/*
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

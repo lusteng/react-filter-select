@@ -1,14 +1,21 @@
 A multi select component for React.
 
-## Demo
-
-look up example/index.html  
-
 ## Installation
 
 ```bash
 npm install react-filter-select
 ```
+
+## Demo
+
+```bash
+npm run dev 
+```
+
+<font size="4">or</font>
+
+    [look up example/index.html]
+
 
 ## Usage
 
@@ -38,14 +45,14 @@ class App extends React.Component {
 
 ## API
 
-| Prop                                  | Type              | Default                                                                                  | Description                                                                                                                                                                                                               |
-| ------------------------------------- | ----------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| options                               | array              | **Required**                                                                             | 下拉选项列表 [{name: 'xxx', id: 'xxx'}] |
-| defaultChecked                        | array              | []                                                                                       | 下拉框默认选中项ids ['xxx'] |
-| onchange                              | func               | **Required**                                                                             | 选中的option发生改变时触发的回调函数 |
-| selectedWordLength                    | number             |  4                                                                                       | 选中的项少于多少项时以逗号隔开显示 |   
-| allowAdd                              | bool               |  false                                                                                   | 搜索不到选项时，是否允许添加搜索内容至下拉列表 |
-| size                                  | string             |  "large"                                                                                 | 下拉框外观大小 @params : "large" or "small"  |   
+| Prop | Type | Default | Description |
+| --- | --- | --- | --- |  
+| options | array | **Required** | 下拉选项列表 [{name: 'xxx', id: 'xxx'}] |
+| defaultChecked | array | [] | 下拉框默认选中项ids ['xxx'] |
+| onchange | func | **Required** | 选中的option发生改变时触发的回调函数 |
+| selectedWordLength | number | 4 | 选中的项少于多少项时以逗号隔开显示 |   
+| allowAdd | bool |  false | 搜索不到选项时，是否允许添加搜索内容至下拉列表 |
+| size | string |  "large" | 下拉框外观大小 @params : "large" or "small"  |   
 
  
 
