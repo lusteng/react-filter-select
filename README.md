@@ -3,7 +3,7 @@ A multi select component for React.
 ## Installation
 
 ```bash
-npm install react-filter-select
+npm i react-filter-select -S
 ```
 
 ## Demo
