@@ -11,7 +11,7 @@ npm i react-filter-select -S
 ![image](https://github.com/lusteng/react-filter-select/blob/master/images/react-mul-select.gif)
  
 ## Demo link 
-[http://www.liubaitong.com/reactmulselect/index.html](http://www.liubaitong.com/reactmulselect/index.html)
+[Look example](http://www.liubaitong.com/reactmulselect/index.html)
 
 
 ## Usage
